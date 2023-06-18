@@ -1,10 +1,9 @@
-export function Button() {
+import { Dialog } from '@radix-ui/react-dialog'
+
+export function Button({ ...props }) {
   return (
-    <button
-      onClick={{}}
-      className="ml-auto flex justify-center rounded-lg bg-tertiary-color px-16 py-7 text-center text-2xl font-bold text-secondary-color"
-    >
-      Criar Materia
-    </button>
-  );
+    <Dialog.Trigger className="flex items-center rounded-lg p-2 text-base font-bold text-white duration-0 hover:bg-purple-800 hover:duration-500">
+      <span className="ml-3">{props.span}</span>
+    </Dialog.Trigger>
+  )
 }
