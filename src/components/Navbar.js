@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image";
 // import { Button } from './Buttton'
 import * as Dialog from '@radix-ui/react-dialog'
 import FormMatt from './FormMatter'
@@ -35,5 +35,5 @@ export function Navbar() {
         </Dialog.Portal>
       </Dialog.Root>
     </div>
-  )
+  );
 }

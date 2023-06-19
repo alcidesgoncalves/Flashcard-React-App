@@ -3,4 +3,4 @@ const nextConfig = {
   basePath: '/home',
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
