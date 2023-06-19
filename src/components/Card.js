@@ -1,7 +1,8 @@
-export function CardMateria({ name, assunto, ...props }) {
+export function CardMateria({ id, name, assunto, ...props }) {
   return (
     <div className="">
       <a
+        // href={`../materia/${id}/`}
         href="#"
         className="group relative block rounded-3xl border-4 border-black bg-white pt-12 transition hover:bg-yellow-50 sm:pt-16 lg:pt-24"
       >
@@ -16,5 +17,5 @@ export function CardMateria({ name, assunto, ...props }) {
         </div>
       </a>
     </div>
-  )
+  );
 }
