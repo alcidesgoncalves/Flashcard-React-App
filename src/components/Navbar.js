@@ -1,7 +1,8 @@
-import Image from 'next/image'
+import Image from "next/image";
 // import { Button } from './Buttton'
-import * as Dialog from '@radix-ui/react-dialog'
-
+import { CardMateria } from "./Card";
+import * as Dialog from "@radix-ui/react-dialog";
+import { FormCard } from "./FormCard";
 export function Navbar() {
   return (
     <div className=" flex  items-center rounded-lg bg-secondary-color p-8 ">
@@ -66,5 +67,5 @@ export function Navbar() {
         </Dialog.Portal>
       </Dialog.Root>
     </div>
-  )
+  );
 }
